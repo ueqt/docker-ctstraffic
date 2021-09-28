@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/nanoserver:ltsc2022
+FROM mcr.microsoft.com/windows
 
 RUN git clone https://github.com/Microsoft/ctsTraffic
 RUN cd ctsTraffic/Releases/2.0.2.7/x64
