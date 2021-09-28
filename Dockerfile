@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows
+FROM mcr.microsoft.com/windows:20H2
 
 RUN git clone https://github.com/Microsoft/ctsTraffic
 RUN cd ctsTraffic/Releases/2.0.2.7/x64
