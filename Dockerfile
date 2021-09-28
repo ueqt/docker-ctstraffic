@@ -16,5 +16,5 @@ COPY ./ctsTraffic.exe ./
 # RUN start /w vc_redist.x64.exe /install /quiet /norestart 
 
 EXPOSE 4444
-ENTRYPOINT ["ctsTraffic.exe", "-listen:*", "-protocol:tcp", "-transfer:0x10000000"]
+ENTRYPOINT ["ctsTraffic.exe", "-listen:*", "-protocol:tcp", "-transfer:0x10000000", "-consoleverbosity:1"]
 
