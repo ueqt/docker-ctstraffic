@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/nanoserver:ltsc2019
+FROM mcr.microsoft.com/windows/nanoserver:1809
 
 USER ContainerAdministrator
 # RUN powershell -command Invoke-WebRequest -outfile ctsTraffic.exe https://github.com/microsoft/ctsTraffic/tree/master/Releases/2.0.2.7/x64/ctsTraffic.exe
