@@ -1,5 +1,6 @@
 # FROM mcr.microsoft.com/windows/nanoserver:1809
-FROM mcr.microsoft.com/windows/servercore:ltsc2019
+# FROM mcr.microsoft.com/windows/servercore:ltsc2019
+FROM mcr.microsoft.com/windows:1809
 
 USER ContainerAdministrator
 
