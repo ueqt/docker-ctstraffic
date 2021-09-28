@@ -21,7 +21,6 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       
       - name: Build and push Docker image
-        working-directory: .
         run: |
-          docker build .
-          docker image push ueqt/ctstraffic
+          docker build -t ueqt/ctstraffic .
+          docker push ueqt/ctstraffic
